@@ -1,0 +1,2 @@
+# WindowsCommandExecutionToolForMuXin
+Windows下的命令行执行工具，能够读取文本内的命令交给系统执行，因为控制台窗口不能直接传特定编码的参数，所以才想写这么一个小工具。
