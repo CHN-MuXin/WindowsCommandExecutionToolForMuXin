@@ -1,0 +1,47 @@
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+IDI_MAINICON       ICON           ".\\res\\icon.ico"
+
+//
+// Version Information resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     1,0,0,0
+    PRODUCTVERSION  0,0,0,0
+    FILEOS          VOS_UNKNOWN
+    FILETYPE        VFT_APP
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0
+    FILEFLAGS       0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "0804FDE9"
+        {
+            VALUE "Comments", ""
+            VALUE "CompanyName", "沐心"
+            VALUE "FileDescription", "文本命令执行工具"
+            VALUE "FileVersion", ""
+            VALUE "InternalName", "测试"
+            VALUE "LegalCopyright", "Copyright By 沐心 All rights Reserved."
+            VALUE "LegalTrademarks", ""
+            VALUE "OriginalFilename", "main.exe"
+            VALUE "PrivateBuild", ""
+            VALUE "ProductName", "文本命令执行工具"
+            VALUE "ProductVersion", "1,0,0,0"
+            VALUE "SpecialBuild", ""
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0804, 0xFDE9
+    }
+}
+
+
+
+
